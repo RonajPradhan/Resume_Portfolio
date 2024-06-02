@@ -5,6 +5,7 @@ import Particle from '../Particle';
 import clothing from '../../Assets/Projects/clothing-ecommerce-app.png';
 import employeeManagementApp from '../../Assets/Projects/employee-management-app.png';
 import contactManager from '../../Assets/Projects/contact-manager.png';
+import sleekFits from '../../Assets/Projects/Sleek-fits.png';
 
 function Projects() {
 	return (
@@ -50,18 +51,19 @@ function Projects() {
 						/>
 					</Col>
 
-					{/* <Col md={4} className="project-card">
+					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={sickfits}
+							imgPath={sleekFits}
 							isBlog={false}
-							title="SickFits Project"
-							description="."
-							ghLink="https://github.com/soumyajit4419/Plant_AI"
-							demoLink="https://plant49-ai.herokuapp.com/"
+							title="SleekFits"
+							description="An E-commerce platform complete with real credit checkout, users can search, sell, add to
+							cart and checkout their favorite items. The app has six main models which are relational and showcase server-side bits including authentication,
+							permissions, sending email, uploading images, and charging credit cards."
+							ghLink="https://github.com/RonajPradhan/NextJS-ecommerce-app"
 						/>
 					</Col>
 
-					<Col md={4} className="project-card">
+					{/* <Col md={4} className="project-card">
 						<ProjectCard
 							imgPath={Gnn}
 							isBlog={false}
